@@ -1,7 +1,7 @@
 # avaliacao_Lions
 <p>Está é a primeira avaliação do curso da LionsDev, onde visa reforçar os conceitos aprendidos até o módulo 2 da ementa.</p>
 
-## Avaliação 1
+## Avaliação I
 
 ### Questões:
 <p>1º Função de uma variável: 
@@ -42,3 +42,50 @@ Considere o trecho de código abaixo.
 <p>5º Explique com suas palavras o que o código está fazendo, fale sobre qual é o valor que será impresso no console, e explique por que.</p>
 <p>6º Filtragem de números pares:
 Escreva um programa que, dado um array de números: [1, 2, 3, 4, 5], imprima no console um novo array contendo apenas os números pares.</p>
+      
+## Avaliação II
+
+### Questões:
+
+<p>1º Uso de variáveis em operações matemáticas:
+Descreva a funcionalidade de uma variável utilizando um exemplo prático. Crie uma variável que armazene o valor de um produto e, em seguida, exiba esse valor no console.</p>
+<p>2º Verificação de maioridade:
+Crie um código que declare uma variável booleana para verificar se uma pessoa é maior de idade (18 anos ou mais) e mostre o resultado no console.</p>
+<p>3º Determinação de número par ou ímpar:
+Escreva um código que determine se um número é par ou ímpar e exiba uma mensagem correspondente no console, sem utilizar funções.</p>
+
+<h4>Alteração de condição em estrutura condicional:</h4>
+Considere o seguinte trecho de código:
+<div>
+  <p>
+    let temperatura = 30;
+    let mensagem;
+    if (temperatura >= 30) {
+        mensagem = "Está calor.";
+    } else {
+        mensagem = "Está frio.";
+    }
+    console.log(mensagem);
+  </p>
+</div>
+<p>4º Modifique o código para que a mensagem seja "Está muito quente." se a temperatura for 35 ou mais e "Está agradável." caso contrário. Em seguida, explique qual parte desse código será executada e qual mensagem será impressa.</p>
+
+<h4>Soma de números negativos:</h4>
+Considere o trecho de código abaixo.
+<div>
+  <p>
+    let numeros = [-1, -2, 3, 4, -5];
+    let soma = 0;
+    for (let i = 0; i < numeros.length; i++) {
+        if (numeros[i] < 0) {
+            soma += numeros[i];
+        }
+    }
+    console.log(soma);
+  </p>
+</div>
+
+<p>5º Explique com suas palavras o que o código está fazendo, fale sobre qual é o valor que será impresso no console, e explique por que.</p>
+<p>6º Filtragem de números negativos:
+Escreva um programa que, dado um array de números: [1, -2, 3, -4, 5], imprima no console um novo array contendo apenas os números positivos.</p>
+
